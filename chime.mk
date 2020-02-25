@@ -537,3 +537,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
+
+# Perf
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.extension_library=libqti-perfd-client.so
