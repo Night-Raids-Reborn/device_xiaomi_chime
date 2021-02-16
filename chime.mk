@@ -392,9 +392,13 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2 \
-    android.hardware.power@1.2.vendor \
-    android.hardware.power-service-qti
+    android.hardware.power@1.3 \
+    android.hardware.power@1.3.vendor \
+    android.hardware.power-service.xiaomi-libperfmgr
+
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
