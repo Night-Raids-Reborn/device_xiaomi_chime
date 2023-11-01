@@ -6,18 +6,24 @@
 #
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-# Bootanimation
+# Pixel customization
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+WITH_GMS := false
+WITH_GAPPS := false
+TARGET_CORE_GMS := false
+USE_PIXEL_CHARGING := true
+TARGET_USE_PIXEL_CHARGER := true
+TARGET_USES_BLUR := false
+TARGET_SUPPORTS_BLUR := false
+BLAZE_MAINTAINER := Darknius
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Live Wallpaper
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-
-# Google Assistant (New Generation)
-PRODUCT_PACKAGES += \
-    NgaResources \
-    nga
-
-# Recovery
-TARGET_USES_AOSP_RECOVERY := true
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
