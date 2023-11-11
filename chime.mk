@@ -531,3 +531,7 @@ PRODUCT_PACKAGES += \
 # Perf
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.extension_library=libqti-perfd-client.so
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
