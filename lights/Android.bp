@@ -1,8 +1,8 @@
 cc_binary {
-    name: "android.hardware.lights-service.chime",
+    name: "android.hardware.lights-service.citrus",
     relative_install_path: "hw",
-    init_rc: ["lights-chime.rc"],
-    vintf_fragments: ["lights-chime.xml"],
+    init_rc: ["lights-citrus.rc"],
+    vintf_fragments: ["lights-citrus.xml"],
     vendor: true,
     shared_libs: [
         "libbase",

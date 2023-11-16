@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "SystemUIResChime",
+    name: "SystemUIRescitrus",
     sdk_version: "current",
     vendor: true
 }

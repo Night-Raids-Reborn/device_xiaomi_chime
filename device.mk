@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/chime/chime-vendor.mk)
+$(call inherit-product, vendor/xiaomi/citrus/citrus-vendor.mk)
 
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
@@ -214,7 +214,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.chime
+    android.hardware.lights-service.citrus
 
 PRODUCT_PACKAGES += \
     lights.bengal
@@ -303,11 +303,11 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
-    FrameworksCustomChime \
-    FrameworksResChime \
-    SettingsResChime \
-    SystemUIResChime \
-    TelephonyResChime \
+    FrameworksCustomcitrus \
+    FrameworksRescitrus \
+    SettingsRescitrus \
+    SystemUIRescitrus \
+    TelephonyRescitrus \
     WifiResCommon
 
 # Package Mgmt
@@ -516,7 +516,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.chime \
+    vendor.qti.hardware.vibrator.service.citrus \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml

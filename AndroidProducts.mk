@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_chime.mk
+    $(LOCAL_DIR)/bootleg_citrus.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_chime-user \
-    bootleg_chime-userdebug \
-    bootleg_chime-eng
+    bootleg_citrus-user \
+    bootleg_citrus-userdebug \
+    bootleg_citrus-eng

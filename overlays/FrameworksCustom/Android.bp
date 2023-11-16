@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "FrameworksCustomChime",
+    name: "FrameworksCustomcitrus",
     sdk_version: "current",
     vendor: true
 }

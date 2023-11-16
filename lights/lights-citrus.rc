@@ -10,7 +10,7 @@ on early-boot
 
     chown system system /sys/class/backlight/panel0-backlight/brightness
 
-service vendor.light-chime /vendor/bin/hw/android.hardware.lights-service.chime
+service vendor.light-citrus /vendor/bin/hw/android.hardware.lights-service.citrus
     class hal
     user system
     group system

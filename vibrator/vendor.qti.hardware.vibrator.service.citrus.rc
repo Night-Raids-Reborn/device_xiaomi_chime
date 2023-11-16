@@ -1,0 +1,4 @@
+service vendor.qti.vibrator.citrus /vendor/bin/hw/vendor.qti.hardware.vibrator.service.citrus
+    class hal
+    user system
+    group system input

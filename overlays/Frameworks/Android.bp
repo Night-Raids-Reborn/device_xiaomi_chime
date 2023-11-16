@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "FrameworksResChime",
+    name: "FrameworksRescitrus",
     sdk_version: "current",
     vendor: true
 }
