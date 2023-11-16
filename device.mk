@@ -302,6 +302,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    ApertureCitrus \
     CarrierConfigOverlay \
     FrameworksCustomcitrus \
     FrameworksRescitrus \
