@@ -103,8 +103,7 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libstdc++_vendor \
-    libgui_vendor \
-    GCamGo
+    libgui_vendor
 
 # Component overrides
 PRODUCT_COPY_FILES += \
